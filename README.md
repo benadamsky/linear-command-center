@@ -1,6 +1,10 @@
 # Linear Command Center
 
-Linear Command Center turns assigned Linear work into an actionable menu-bar pulse. It emphasizes exceptions—agent sessions waiting for input, blocked or overdue work, review queues, and stale active issues—so you can stay oriented without keeping Linear open.
+Linear Command Center puts your assigned Linear work in the menu bar and leads with the exceptions: agent sessions waiting for input, blocked or overdue issues, review queues, and active work that has gone stale. You stay oriented without keeping Linear open.
+
+## How it differs from the Linear extension
+
+The official Linear extension is a full client: browse issues, projects, and cycles, with a menu-bar list of what is assigned to you. This extension is narrower and exceptions-first. The menu bar shows only what needs a decision from you, it understands Linear agent sessions and delegation (an agent waiting on input is surfaced ahead of everything else), and it flags stale work on a timer you set. Use the official extension to work in Linear; use this one to know when to.
 
 ## Commands
 

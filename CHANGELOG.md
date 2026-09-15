@@ -2,8 +2,9 @@
 
 ## [Initial Release] - {PR_MERGE_DATE}
 
-- Added a 15-minute Linear menu-bar pulse for attention items, reviews, agent work, and active work.
-- Added a searchable multi-team work dashboard with per-team workflow actions and progress notes.
-- Added quick issue capture with team, status, project, and priority selection.
-- Added automatic detection for Linear agent sessions, delegation, agent labels, project keywords, blockers, overdue work, and stale work.
-- Added PKCE OAuth through Raycast, direct Linear API access, safe external-link handling, pagination, and automated workflow-classification tests.
+- Linear Pulse: a menu-bar command that refreshes every 15 minutes and lists work needing attention, reviews, active agent sessions, and active issues
+- Linear Work Dashboard: a searchable queue across teams with actions to open an issue, follow its agent session, change its status, or add a progress note
+- Quick Capture Linear Issue: create an issue with a team, workflow status, project, and priority
+- Detects Linear agent sessions, delegation, agent labels, and project keywords, plus blocked, overdue, and stale work
+- Authenticates with Raycast's Linear OAuth (PKCE); talks only to the Linear GraphQL API; opens external links only on an explicit action and only over http(s)
+- Demo Data preference for screenshots and previews
