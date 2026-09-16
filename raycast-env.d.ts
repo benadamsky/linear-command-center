@@ -23,6 +23,7 @@ type ExtensionPreferences = {
   /** Demo Data - Show sanitized sample work for previews and screenshots instead of loading Linear data */
   "demoMode": boolean
 }
+
 /** Preferences accessible in all the extension's commands */
 declare type Preferences = ExtensionPreferences
 
@@ -43,3 +44,4 @@ declare namespace Arguments {
   /** Arguments passed to the `quick-capture` command */
   export type QuickCapture = {}
 }
+
